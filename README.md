@@ -26,7 +26,7 @@ World-class university lectures exist on YouTube — but they're buried, unorgan
 - **SSR with Next.js 15** — every course page is server-rendered with full metadata, making it indexable by Google
 - **Netflix-style UI** — familiar, cinematic browsing experience for educational content
 - **No account required** — completely open access, no sign-up wall
-- **Self-hostable** — one `docker compose up` and you're running your own instance
+- **Self-hostable** — run locally in minutes or deploy to any VPS; Docker optional
 
 ---
 
@@ -56,7 +56,9 @@ World-class university lectures exist on YouTube — but they're buried, unorgan
 
 ---
 
-## Quick Start (Local Development)
+## Running Locally (No Docker Required)
+
+Docker is **completely optional**. The simplest way to run EduStream is directly on your machine.
 
 ### Prerequisites
 
@@ -90,11 +92,13 @@ npm install --legacy-peer-deps
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000). That's it — no containers needed.
 
 ---
 
-## Docker Deployment
+## Docker Deployment (Optional)
+
+Use Docker if you want an isolated, reproducible production environment.
 
 ### 1. Clone and configure
 
@@ -164,8 +168,7 @@ EdustreamCo/
 │   ├── context/              # Auth context
 │   └── Dockerfile
 ├── nginx/                    # Nginx config snippets
-├── docker-compose.yml
-└── deploy.sh                 # One-shot VPS deploy script
+└── docker-compose.yml        # Optional: containerized deployment
 ```
 
 ---
