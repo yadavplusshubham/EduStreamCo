@@ -125,10 +125,10 @@
 | TEST-04 | Phase 4 | Pending |
 
 **Coverage:**
-- v1 requirements: 31 total
-- Mapped to phases: 31
+- v1 requirements: 32 total
+- Mapped to phases: 32
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-03-30*
-*Last updated: 2026-03-30 after initial definition*
+*Last updated: 2026-03-30 — traceability verified against ROADMAP.md phases*
