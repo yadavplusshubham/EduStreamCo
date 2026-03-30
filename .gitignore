@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Production builds
+build/
+dist/
+
+# Environment files — never commit secrets
+.env
+.env.*
+!.env.example
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+coverage/
+.pytest_cache/
+test_reports/
+test_result.md
+backend_test.py
+
+# Deployment / CI
+.vercel
+.cache/
+
+# Docker volumes (local only)
+mongo_data/
+
+# Archives
+**/*.zip
+**/*.tar.gz
+**/*.tgz
+
+# Keys / certs
+*.pem
+*.key
+*.p12
+
+# Project planning (internal)
+.planning/
+.emergent/
+memory/
